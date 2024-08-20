@@ -36,7 +36,7 @@ const Navbar = () => {
           text-neutral-100
           "
           >
-            KDD Tutorial 2024
+            14:00 – 17:00, August 25, 2024
           </div>
         </div>
       </div>
