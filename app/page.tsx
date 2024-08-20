@@ -33,8 +33,8 @@ export default function Home() {
       <Agenda />
       <Speakers />
       <Section title="Contents">
-        <TextContainer text="Slides: Coming Soon" />
-        <TextContainer text="Lab Notebooks: Coming Soon" />
+        <TextContainer text="Slides: Coming Soon" link="" />
+        <TextContainer text="Lab Notebooks: Coming Soon" link="" />
       </Section>
     </div>
   );
