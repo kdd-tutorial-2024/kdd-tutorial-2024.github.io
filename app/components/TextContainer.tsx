@@ -4,7 +4,7 @@ interface TextContainerProps {
 }
 const TextContainer = ({ text, link }: TextContainerProps) => {
   return (
-    <div className={`text-lg ${link && 'underline'}`}>
+    <div className={`text-lg w-fit ${link && 'underline hover:text-gray-600'}`}>
       {link ? (
         <a href={link} target="_blank" rel="noopener noreferrer">
           {text}
